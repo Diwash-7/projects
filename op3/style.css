@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(166,194,191);
+}
+.navigator{
+    width: 100vw;
+display: flex;
+    background-color: rgb(35,64,70);
+position: fixed;
+z-index: 9;
+justify-content: space-between ;
+align-items: center;
+
+}
+.logo{
+    border-radius: 50%;
+    margin-left: 50px;
+    transition: .5s;
+}
+.logo:hover{
+    filter: invert(100%);
+}
+.cite{
+    margin-right: 50px;
+    display: flex;
+}
+.cite ul a{
+    text-decoration: none;
+    color: lightcyan;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cite ul a:hover{
+    filter: opacity(70%);
+}
+
+div{
+     display: flex;
+ }
+ .back{
+     width: 100vw;
+     position: fixed;
+     top: -150px;
+ }
+ .op{
+     z-index: 10;
+     position: relative;
+     top: 300px;
+     width: 100vw;
+ }
+ div h1{
+     position: fixed;
+     color: lemonchiffon;
+     font-size: 200px;
+     top: 25%;
+     left: 35%;
+     z-index: 9;
+     transition: .8s;
+     
+     
+ }
+div h1:hover{
+    color: rgba(21, 114, 114, 0);
+    -webkit-text-stroke: lightcyan;
+    -webkit-text-stroke-width: 2px;
+    
+    cursor: default;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 98.7vw;
+    height: 15vh;
+    background-color: rgb(169,179,172);
+    position: relative;
+    z-index: 100;
+    top: 207px;
+    font-size: 20px;
+    filter: opacity(80%);
+
+}

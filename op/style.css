@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    background-color: rgb(248, 231, 80);
+    border-radius: 50px;
+    clip-path: circle(15% at 50% 50%);
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    color: rgba(83, 9, 9, 0);
+    border-style: solid ;
+    border-color: rgb(100, 100, 100);
+    border-width: 5px;
+}
+.container:hover{
+
+color: rgb(114, 74, 10);
+    clip-path: circle(100% at 50% 50%);
+    background-color: rgb(228, 187, 241);
+}
+
+
+img{
+    
+    width: 100%;
+margin-left: -545px;
+
+    
+}
